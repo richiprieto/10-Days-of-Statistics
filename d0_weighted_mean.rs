@@ -27,7 +27,6 @@ fn main(){
     for (&v, &w) in values.iter().zip(pesos.iter()){
         nomin += v * w;
         denom += w;
-        //println!("{}{}", v, w);
     }
     println!("{:.1}", nomin/denom);  
 }
